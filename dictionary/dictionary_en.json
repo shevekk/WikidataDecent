@@ -1,0 +1,12 @@
+﻿{
+  "SEARCH" : "Search",
+  "LOADING" : "Loading",
+  "ENABLE_FILTER_DATE" : "Enabled date filter",
+  "NB_DESCENDANTS" : "Number of descendants",
+  "NB_WITH_BIRTH_PLACE" : "Number with place of birth",
+  "NB_WITH_DATES" : "Number with dates",
+  "PREDIFINED_ELEMENT" : "Predefined elements",
+  "QUERY_FAIL" : "Failure of the query",
+  "SEARCH_FAIL" : "Failure of the search",
+  "QUERY_LOADIND_TOO_LONG" : "Failure of the query, loading too long, please try again"
+}

@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Map</title>
+    <link rel="icon" type="image/png" href="../img/icon.png" />
+  </head>
+  <body>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="node_modules/leaflet/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    <script src="node_modules/leaflet/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    
+    <link rel="stylesheet" type="text/css" href="node_modules/leaflet.markercluster/dist/MarkerCluster.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+    <script src='node_modules/leaflet.markercluster/dist/leaflet.markercluster.js'></script>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules\jquery-ui\ui\widget.js"></script> 
+    <script src="node_modules\jquery-ui\ui\widgets/mouse.js"></script> 
+    <script src="node_modules\jquery-ui\ui\widgets/slider.js"></script> 
+
+    <link rel="stylesheet" href="node_modules/jquery-ui/themes/base/all.css" type="text/css">
+
+    <script type="text/javascript" src="time.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="map.js"></script>
+    <script type="text/javascript" src="query.js"></script>
+    <script type="text/javascript" src="element.js"></script>
+    <script type="text/javascript" src="search.js"></script>
+    <script type="text/javascript" src="dictionary/dictionary.js"></script>
+
+    <div id="searchDiv"></div>
+
+    <div id="map"></div>
+
+    <script>
+      let main = new Main();
+      main.init();
+    </script>
+  </body>
+</html>

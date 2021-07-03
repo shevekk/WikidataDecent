@@ -1,0 +1,17 @@
+{
+  "name": "wikidata_descent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "jquery-ui": "^1.12.1",
+    "leaflet": "^1.7.1",
+    "leaflet.markercluster": "^1.5.0"
+  }
+}
